@@ -35,7 +35,7 @@
 
 Name:           maven-doxia
 Version:        1.4
-Release:        4%{?dist}
+Release:        5%{?dist}
 Epoch:          0
 Summary:        Content generation framework
 License:        ASL 2.0
@@ -298,6 +298,9 @@ API documentation for %{name}.
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 01.4-5
+- Mass rebuild 2013-12-27
+
 * Thu Nov  7 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0:1.4-4
 - Package doxia-core test JAR
 
